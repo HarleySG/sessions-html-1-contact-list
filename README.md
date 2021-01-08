@@ -2,9 +2,9 @@
 
 ## class 4
     - [x] Proyecto, estructura, detalles y insteracción.
-    - [x] Instalación de programas: Visual Studio code & git scm
-    - [x] APertura cuenta en Github & creación proyecto html contact list
+    - [x] Instalación de programas: Visual Studio code & git scm.
+    - [x] APertura cuenta en Github & creación proyecto html contact list.
 
 ## class 5
+    - [x] Explicación 1 de git / repositorios
     - [ ] Estructura de carpetas
-    - [ ] Explicación de git / repositorios
