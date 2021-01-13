@@ -1,10 +1,37 @@
 # sessions-html-1-contact-list
 
 ## class 4
-    - [x] Proyecto, estructura, detalles y insteracción.
-    - [x] Instalación de programas: Visual Studio code & git scm.
-    - [x] APertura cuenta en Github & creación proyecto html contact list.
+- [x] Proyecto, estructura, detalles y insteracción.
+- [x] Instalación de programas: Visual Studio code & git scm.
+- [x] APertura cuenta en Github & creación proyecto html contact list.
 
 ## class 5
-    - [x] Explicación 1 de git / repositorios
-    - [ ] Estructura de carpetas
+- [x] Explicación 1 de git / repositorios
+    - [x] agregar ssh key en el pc y registrar en github.
+    - [x] clonar repositorio en pc.
+- [x] Estructura de carpetas inicial
+    - [x] Creación de archivos html, css & js
+    - [x] estructura base de html.
+
+## class 6
+- [x] Introducción a css
+    - [x] Selectores
+    - [x] Propiedades y valores
+        - [x] Displays (flex)
+        - [x] Justify-content
+        - [x] background-color
+        - [x] min-height
+        - [x] width
+        - [x] margin
+    - [x] Especificidad
+    - [x] Especificidad
+- [x] Inicio maquetación header principal
+
+## class 7
+- [ ] Finalizar Maquetación header principal
+    - [ ] Propiedades y valores css
+        - [ ] padding
+        - [ ] border
+        - [ ] align-items
+        - [ ] gap
+        - [ ] mediaQueries / responsive
