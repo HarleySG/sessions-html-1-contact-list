@@ -24,14 +24,21 @@
         - [x] width
         - [x] margin
     - [x] Especificidad
-    - [x] Especificidad
 - [x] Inicio maquetación header principal
 
 ## class 7
-- [ ] Finalizar Maquetación header principal
+- [x] Finalizar Maquetación header principal
+    - [x] Propiedades y valores css
+        - [x] padding
+        - [X] border
+        - [X] align-items
+        - [x] text-decoration
+        - [x] gap
+
+## class 8
+- [ ] AJustar responsive al header principal
     - [ ] Propiedades y valores css
-        - [ ] padding
-        - [ ] border
-        - [ ] align-items
-        - [ ] gap
-        - [ ] mediaQueries / responsive
+        - [ ] mediaQueries
+        - [ ] flex-direction: column;
+- [ ] Iniciar maquetación al footer principal
+- [ ] Iniciar maquetación al división secciones

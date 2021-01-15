@@ -5,6 +5,10 @@
    License: none (public domain)
 */
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,13 +53,18 @@ table {
 	border-spacing: 0;
 }
 
-/* base */
+/* base / proyecto */
 
 /* px, viewport height */
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
+}
+
+button {
+  background: none;
+  border: none;
 }
 
 /* objets */
@@ -104,27 +113,58 @@ img {...}
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    /* display: block, flex, grid, table (inline-block) */
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 .app-header {
-    background-color: lightseagreen;
-    min-height: 40px;
+    min-height: 68px;
+    box-shadow: 0px 8px 14px -7px rgb(137 137 137 / 35%);
 }
 
 /* components */
+.c-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 7px;
+  padding: 0.2rem 0.5rem;
+  min-height: 2rem;
+  background-color: greenyellow;
+  color: inherit;
+
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 6px;
+  font-size: 0.7rem;
+}
 
 .header-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    min-height: inherit;
 }
 
 .header-logo {
     /* background-color: tomato; */
 }
 .header-menu {
-    /* background-color: green; */
-} 
+    padding: 17px 0;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.header-menu_link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
 
 /* states */
+.header-menu_link:hover {
+    box-shadow: 0 2px 0 0 gold;
+    color: gold;
+}
 /* specificity */
