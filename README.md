@@ -36,9 +36,11 @@
         - [x] gap
 
 ## class 8
-- [ ] AJustar responsive al header principal
-    - [ ] Propiedades y valores css
-        - [ ] mediaQueries
-        - [ ] flex-direction: column;
+- [x] AJustar responsive al header principal
+    - [x] Propiedades y valores css
+        - [x] mediaQueries
+        - [x] flex-direction: column;
+- [x] Iniciar maquetación al división secciones
+
+## class 9
 - [ ] Iniciar maquetación al footer principal
-- [ ] Iniciar maquetación al división secciones
