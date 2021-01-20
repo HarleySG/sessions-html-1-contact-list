@@ -5,61 +5,143 @@
    License: none (public domain)
 */
 
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* base / proyecto */
 
-/* px, viewport height */
-
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  min-height: 100vh;
 }
 
 button {
@@ -109,20 +191,37 @@ img {...}
 */
 
 .app-wrapper {
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 17px;
-    padding-right: 17px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 .app-header {
-    min-height: 68px;
-    box-shadow: 0px 8px 14px -7px rgb(137 137 137 / 35%);
+  min-height: 68px;
+  box-shadow: 0px 8px 14px -7px rgb(137 137 137 / 35%);
+  padding: 0.5rem 0;
+}
+
+.app-title {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.app-title hr {
+  width: 100%;
+  border-color: greenyellow;
+  border-style: solid;
+  background-color: greenyellow;
 }
 
 /* components */
+
 .c-button {
   display: flex;
   justify-content: space-around;
@@ -140,31 +239,44 @@ img {...}
 }
 
 .header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: inherit;
 }
 
 .header-logo {
-    /* background-color: tomato; */
+  /* background-color: tomato; */
 }
 .header-menu {
-    padding: 17px 0;
-    display: flex;
-    gap: 24px;
-    align-items: center;
+  padding: 17px 0;
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
 .header-menu_link {
-    text-decoration: none;
-    color: inherit;
-    font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
 }
-
 
 /* states */
+
 .header-menu_link:hover {
-    box-shadow: 0 2px 0 0 gold;
-    color: gold;
+  box-shadow: 0 2px 0 0 gold;
+  color: gold;
 }
+
 /* specificity */
+
+@media screen and (max-width: 37.5em) {
+  .header-wrapper {
+    flex-direction: column;
+  }
+  .header-menu {
+    padding: 0;
+  }
+  .header-logo {
+    font-size: 0.7em;
+  }
+}
