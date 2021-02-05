@@ -43,4 +43,14 @@
 - [x] Iniciar maquetación al división secciones
 
 ## class 9
+- [x] html
+    - [x] Shadow DOM
+    - [x] img tag & src
+- [x] css
+    - [x] Seudo elementos
+    - [x] Displays (flex)
+    - [x] Justify-content
+    - [x] min-height
+
+## class 9
 - [ ] Iniciar maquetación al footer principal
